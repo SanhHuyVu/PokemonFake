@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7dd1bb895a8f3e4faf2630dcde08dd1, type: 3}
+  m_Name: WaterSplah
+  m_EditorClassIdentifier: 
+  name: WaterSplash
+  description: water splash
+  power: 110
+  mpCost: 15
+  hpCost: 0
+  category: 0
+  bType: 0
+  effects:
+    boosts: []
+    status: 0
+  target: 0
+  icon: {fileID: -508582910057481516, guid: 11418b6a1c144444b9905c202bcc590d, type: 3}

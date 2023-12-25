@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bfb1d533c8b00346b93ad5b87ed4280, type: 3}
+  m_Name: Charmander
+  m_EditorClassIdentifier: 
+  name: Charmander
+  description: 
+  frontSprite: {fileID: -4178046375966092550, guid: cd259d9d4f8ba2749a16d1cc64d46bec, type: 3}
+  backSprite: {fileID: -4178046375966092550, guid: ed8e1d9976a1fd94d961840d8f6e7764, type: 3}
+  type1: 3
+  type2: 0
+  maxHP: 139
+  maxMP: 125
+  pAttack: 10
+  pDefense: 10
+  mAttack: 10
+  mDefense: 10
+  critRate: 5
+  critDmg: 1.5
+  maxHPGain: 1
+  maxMPGain: 1
+  pAttackGain: 1
+  pDefenseGain: 1
+  mAttackGain: 1
+  mDefenseGain: 1
+  actionSpeed: 50
+  actionSpeedGain: 1
+  expYield: 62
+  currentSkillPoint: 1
+  activeAbilities:
+  - abilityBase: {fileID: 11400000, guid: 09e6610172c5eb14c9f4bfaf1f8fb068, type: 2}
+    lvlToLearn: 10
+  - abilityBase: {fileID: 11400000, guid: fa23b42145fa3224593fdc3457daef2d, type: 2}
+    lvlToLearn: 5
+  - abilityBase: {fileID: 11400000, guid: b0b27f896b237b84c9a2c9785c0c66ce, type: 2}
+    lvlToLearn: 3
+  - abilityBase: {fileID: 11400000, guid: 7bb8f4206450cd94789cc3906a0eefe2, type: 2}
+    lvlToLearn: 1
